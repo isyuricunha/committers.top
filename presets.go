@@ -156,7 +156,7 @@ var PRESETS = map[string]QueryPreset{
 	},
 	"egypt": QueryPreset{
 		title:   "Egypt",
-		include: []string{"egypt", "cairo", "alexandria", "giza", "port+said", "suez", "luxor", "el+mahalla", "asyut", "al+mansurah", "tanda"},
+		include: []string{"egypt", "cairo", "alexandria", "giza", "port+said", "suez", "luxor", "el+mahalla", "asyut", "asiut", "al+mansurah", "mansoura", "tanta", "ismailia", "hurghada", "sharm+el-sheikh", "nuweiba", "dahab", "ain+shams", "ain+el+sokhna", "ain+elsokhna", "gouna", "el+gouna", "zagazig", "fayoum", "faiyum", "aswan", "minya", "sohag", "beni+suef", "damietta", "kafr+el-sheikh", "banha", "damanhur", "shibin+el+kom", "qena", "arish", "marsa+matrouh", "kharga", "monufia", "sharkia", "sharqia", "dakahlia", "gharbia", "qalyubia", "beheira", "matrouh", "north+sinai", "south+sinai", "red+sea", "new+valley", "10th+of+ramadan", "6th+of+october", "obour+city", "new+cairo", "sadat+city", "borg+el+arab", "om+el+donia", "masr", "heliopolis", "nasr+city"},
 		exclude: []string{",+VA", "Virginia", ",+LA", "Louisiana"},
 	},
 	"ethiopia": QueryPreset{
