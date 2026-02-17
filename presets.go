@@ -579,7 +579,7 @@ var PRESETS = map[string]QueryPreset{
 	},
 	"iraq": QueryPreset{
 		title:   "Iraq",
-		include: []string{"baghdad", "mosul", "basra", "kirkuk", "erbil", "najaf", "karbala", "sulaymaniya", "al-nasiriya", "al-amarah"},
+		include: []string{"baghdad", "mosul", "basra", "najaf", "karbala", "al-nasiriya", "al-amarah"},
 	},
 	"qatar": QueryPreset{
 		title:   "Qatar",
@@ -612,6 +612,10 @@ var PRESETS = map[string]QueryPreset{
 	"bosnia and herzegovina": QueryPreset{
 		title:   "Bosnia and Herzegovina",
 		include: []string{"sarajevo", "banja+luka", "tuzla", "zenica", "bijeljina", "mostar", "prijedor", "brcko", "doboj", "cazin"},
+	},
+	"kurdistan": QueryPreset{
+	    title:   "Kurdistan",
+	    include: []string{"kurdistan", "erbil", "hawler", "sulaymaniyah", "slemani", "duhok", "halabja", "kirkuk"},
 	},
 }
 
